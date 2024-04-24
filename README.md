@@ -31,6 +31,8 @@ Please only do this if you know what you are doing and can debug issues by yours
 6. Paste the modimporter executable into the Content folder and create a Mods folder within the Content folder.
 
 7. Place the mod folders into the Mods folder. The folder hierarchy should look like this:
+   ```
+
    Resources/
     └── Content/
         ├── Audio/
@@ -43,11 +45,14 @@ Please only do this if you know what you are doing and can debug issues by yours
             └── AnotherMod/
                 ├── ...
                 └── modfile.txt
+   
+   ```
+ 
    If the mod that you got does not have a modfile.txt, it is an old type mod. Follow the instructions on the mod's page to install the mod. It should be the same if it isn't doing anything outside the Content folder. If a mod needs to be placed into a folder called Win/macOS, that is the iOS folder for mobile. You do not need to do this for new type mods, but you may need to rename the iOS folder to Win if any problems arise.
 
-8. Copy the Content folder and then paste it into the Payload folder. Backup and delete the old Content folder beforehand to avoid any issues. You will need to replace that Content folder with the original one if you want to play vanilla.
+9. Copy the Content folder and then paste it into the Payload folder. Backup and delete the old Content folder beforehand to avoid any issues. You will need to replace that Content folder with the original one if you want to play vanilla.
 
-9. Zip the payload folder and rename it's extension to .ipa
+10. Zip the payload folder and rename it's extension to .ipa
     
 11. **EXTRA** Changing the Info.plist file to show the save file in the Files app
     - Open your file in a plist editor.
