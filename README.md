@@ -1,5 +1,5 @@
 # Hades Mobile Modding Guide(the unreasonable effectiveness of kludging data files)
-A guide on how to mod the mobile version of Hades. Please read the warning before proceeding because this is not something a normal person should attempt. [INCOMPLETE]
+A guide on how to mod the mobile version of Hades. Please read the warning before proceeding because this is not something a normal person should attempt. (You hate yourself if you try this)
 
 # Warning
 Please only do this if you know what you are doing and can debug issues by yourself. I'm not the dev of anything mentioned here, and can't really help you if any issue arises. Backup your save files before proceeding(I have a guide for that [here!](https://github.com/RedMarbles1/hades-save-transfer-guide)). 
